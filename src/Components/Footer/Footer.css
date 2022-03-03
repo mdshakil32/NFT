@@ -1,0 +1,120 @@
+.footer {
+  padding: 100px 0;
+}
+
+/*====== footer left  =========*/
+.footer-logo {
+  font-family: Integral CF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 27px;
+}
+.footer-subtitle {
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  margin-bottom: 32px;
+}
+.social-media {
+  margin-bottom: 30px;
+}
+.social-media img {
+  width: 36px;
+  height: 36px;
+  margin-right: 16px;
+}
+
+/*======== footer middle ======= */
+.footer-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  color: #3d3d3d;
+}
+
+/* ====== subscribe-field ==========*/
+.subscribe-field {
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #f1f1f1;
+  /* box-sizing: border-box; */
+  border-radius: 45.595px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+}
+.subscribe-field input {
+  font-size: 12.1587px;
+  /* line-height: 16px; */
+  color: #959595;
+  /* padding: 8px 0; */
+  margin-left: 20px;
+  width: 170px;
+  border: none;
+  outline: none;
+}
+.subscribe-btn {
+  padding: 13.1983px 30.3967px;
+  background: #2639ed;
+  border-radius: 45.595px;
+  border: none;
+  font-size: 12.1587px;
+  line-height: 16px;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  border: 2px solid #2639ed;
+  transition: all 0.4s;
+}
+.subscribe-btn:hover {
+  color: #2639ed;
+  background-color: #ffffff;
+  transition: all 0.4s;
+}
+
+/* responsive query  */
+@media only screen and (max-width: 1400px) {
+  .subscribe-field {
+    padding: 5px;
+  }
+  .subscribe-field input {
+    margin-left: 10px;
+    width: 55%;
+  }
+  .subscribe-btn {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .subscribe-field {
+    padding: 5px;
+  }
+  .subscribe-field input {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .subscribe-field input {
+    width: 60%;
+  }
+  .subscribe-btn {
+    width: 40%;
+    padding: 8px;
+    font-size: 12.1587px;
+  }
+}

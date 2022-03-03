@@ -1,0 +1,51 @@
+.amazing-art-section {
+  background: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(50px);
+  padding: 129px 0;
+}
+.amazing-art-wrapper {
+}
+.amazing-art-heading {
+  max-width: 398px;
+  /* margin: 14px 0; */
+}
+.amazing-art-heading h1 {
+  font-family: Integral CF;
+  font-weight: bold;
+  font-size: 28px;
+}
+.amazing-art-single {
+  display: flex;
+  gap: 0 15px;
+  max-width: 300px;
+  /* margin: 14px 0; */
+}
+.amazing-art-single h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+.amazing-art-single p {
+  font-size: 14px;
+  line-height: 160%;
+}
+.amazing-art-single img {
+  width: 36px;
+  height: 36px;
+}
+
+@media only screen and (max-width: 576px) {
+  .amazing-art-section {
+    padding: 90px 0;
+  }
+  .amazing-art-heading h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .amazing-art-single,
+  .amazing-art-heading {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+}

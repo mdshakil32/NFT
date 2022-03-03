@@ -1,0 +1,122 @@
+.navigation-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #efefef;
+}
+
+/* ======= brand logo  =========*/
+.nav-brand {
+  font-family: Integral CF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #3d00b7 !important;
+  padding-top: 0;
+  margin-top: -5px;
+}
+
+/* ============== nav links =========== */
+
+.cus-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: black !important;
+}
+
+/* ======= nav search field ======== */
+.nav-search-seaction {
+  width: 300px;
+  height: 50px;
+  position: relative;
+}
+.input-box {
+  position: relative;
+  border-radius: 20px;
+}
+.input-box input {
+  max-width: 300px;
+  height: 50px;
+  font-family: DM Sans;
+  padding-right: 40px;
+  color: #c0c0c0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  border: 2px solid #efefef;
+  background: #ffffff;
+}
+
+.input-box img {
+  width: 24px;
+  position: absolute;
+  right: 13px;
+  top: 14px;
+  color: #ced4da;
+}
+
+/* ======= nav buttons ========= */
+.upload-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 38px;
+  max-width: 129px;
+  max-height: 48px;
+  left: 1013px;
+  top: 31px;
+  border: 2px solid #3d00b7;
+  background: #3d00b7;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.wallet-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 10px;
+  max-width: 154px;
+  max-height: 48px;
+  left: 1013px;
+  top: 31px;
+  border: 2px solid #3d00b7;
+  color: #3d00b7;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  background-color: #ffffff;
+  transition: all 0.4s;
+}
+.upload-btn:hover,
+.wallet-btn:hover {
+  transform: scale(0.9);
+}
+
+/* ======= responsive query ========== */
+@media only screen and (min-width: 1200px) {
+  .nav-brand {
+    margin-right: 60px;
+  }
+  .left-nav-wraper {
+    gap: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .nav-search-seaction {
+    width: 250px;
+  }
+  .input-box {
+    width: 100%;
+    margin: 3px;
+  }
+}
